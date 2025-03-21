@@ -1,55 +1,60 @@
-# MySQL
+# 📄 SQL Files Overview
 
-Welcome to the MySQL repository! This repository contains SQL scripts categorized into different levels of complexity, ranging from basic to advanced, along with real-world projects.
+This repository contains various SQL scripts covering fundamental and advanced SQL concepts. These scripts include data cleaning, exploratory data analysis, joins, subqueries, stored procedures, and more.
 
-📂 Repository Structure
+## 📂 Files and Descriptions
 
-🔹 Basic Level
+- **CTEs**  
+  🔹 Demonstrates the use of Common Table Expressions (CTEs) for better query organization.
 
-These scripts cover the fundamental SQL concepts:
+- **Case Statements**  
+  🔹 Includes examples of CASE statements for conditional logic in SQL queries.
 
-Select Statement.sql - Learn how to retrieve data from a database.
+- **DATA_CLEANING_PROJECT**  
+  🔹 A project focused on cleaning raw data using SQL techniques.
 
-Where Statement.sql - Filter records using conditional clauses.
+- **Exploratory_Data_Analysis**  
+  🔹 Performs exploratory data analysis (EDA) using SQL queries.
 
-Limit and Aliasing.sql - Control the number of results and use aliases for better readability.
+- **Group By + Order By**  
+  🔹 Shows how to use GROUP BY and ORDER BY to summarize and sort data.
 
-Group By + Order By.sql - Aggregate and sort data effectively.
+- **Having vs Where**  
+  🔹 Explains the difference between HAVING and WHERE clauses in filtering data.
 
-Having vs Where.sql - Understand the difference between HAVING and WHERE clauses.
+- **Joins**  
+  🔹 Demonstrates INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL OUTER JOIN.
 
-🔹 Intermediate Level
+- **Limit and Aliasing**  
+  🔹 Covers how to limit query results and use aliases for readability.
 
-Enhance your SQL knowledge with these essential concepts:
+- **Select Statement**  
+  🔹 Provides basic SELECT statement examples to retrieve data.
 
-Unions.sql - Combine multiple queries into a single result set.
+- **Stored Procedures**  
+  🔹 Shows how to create and use stored procedures in SQL databases.
 
-Window Functions.sql - Perform advanced analytical operations.
+- **String Functions**  
+  🔹 Includes examples of string manipulation functions like CONCAT, SUBSTRING, and LENGTH.
 
-Case Statements.sql - Implement conditional logic within queries.
+- **Subqueries**  
+  🔹 Explores the use of subqueries for complex data retrieval.
 
-Joins.sql - Work with multiple tables using different types of joins.
+- **Temp Tables**  
+  🔹 Demonstrates the creation and usage of temporary tables in SQL.
 
-String Functions.sql - Manipulate text data using SQL functions.
+- **Triggers and Events**  
+  🔹 Explains how to use triggers and scheduled events in SQL databases.
 
-Subqueries.sql - Nest queries within other queries for complex operations.
+- **Unions**  
+  🔹 Covers the UNION and UNION ALL operators for combining query results.
 
-🔹 Advanced Level
+- **Where Statement**  
+  🔹 Demonstrates the use of the WHERE clause for filtering data.
 
-Master advanced SQL techniques with these scripts:
+- **Window Functions**  
+  🔹 Explores advanced SQL window functions such as ROW_NUMBER, RANK, and DENSE_RANK.
 
-Stored Procedures.sql - Automate tasks using reusable stored procedures.
+- **layoffs.csv**  
+  🔹 A dataset used for SQL queries and data analysis.
 
-Temp Tables.sql - Create and use temporary tables for session-based operations.
-
-Triggers and Events.sql - Automate database actions with triggers and scheduled events.
-
-CTEs.sql - Use Common Table Expressions for better query readability and efficiency.
-
-🔹 Projects
-
-Apply SQL skills to real-world datasets:
-
-Exploratory_Data_Analysis.sql - Analyze and derive insights from raw data.
-
-DATA_CLEANING_PROJECT.sql - Clean and preprocess messy data for better usability.
